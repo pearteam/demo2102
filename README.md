@@ -218,6 +218,11 @@ $ curl http://localhost:8080/api/v1/newspaper/findAllWithFilters?dpi=120&height=
     "page_size": 7
 }
 ```
+Upload files with Postman:
+
+![Postman app](fig2.png)
+
+
 Whole solution might be tested in browser:
 ```
 http://localhost:8080
