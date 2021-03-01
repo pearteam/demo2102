@@ -1,0 +1,17 @@
+version: '3'
+services:
+ mysql:
+  container_name: mysql57dc
+  image: mysql/mysql-server:5.7
+  environment:
+   MYSQL_DATABASE: 'newspaper_data'
+   MYSQL_USER: 'springuser'
+   MYSQL_PASSWORD: 'ThePassword'
+   MYSQL_ROOT_PASSWORD: 'mypassword'
+  ports:
+   - "3306:3306"
+  volumes:
+   - mysql-demo:/var/lib/mysql
+  network_mode: "host"
+volumes:
+  mysql-demo:

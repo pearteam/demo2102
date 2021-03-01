@@ -1,0 +1,11 @@
+<epaperRequest>
+	<deviceInfo name="Browser" id="test@comp">
+		<screenInfo width="3000" height="900" dpi="180" />
+		<osInfo name="Browser" version="1.0" />
+		<appInfo>
+			<newspaperName>The New York Times</newspaperName>
+			<version>1.0</version>
+		</appInfo>
+	</deviceInfo>
+	<getPages editionDefId="11" publicationDate="2017-06-06"/>
+</epaperRequest>

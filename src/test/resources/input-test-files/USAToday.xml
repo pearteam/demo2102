@@ -1,0 +1,11 @@
+<epaperRequest>
+	<deviceInfo name="Browser" id="test@comp">
+		<screenInfo width="1500" height="800" dpi="130" />
+		<osInfo name="Browser" version="1.0" />
+		<appInfo>
+			<newspaperName>USA Today</newspaperName>
+			<version>1.0</version>
+		</appInfo>
+	</deviceInfo>
+	<getPages editionDefId="11" publicationDate="2017-06-06"/>
+</epaperRequest>

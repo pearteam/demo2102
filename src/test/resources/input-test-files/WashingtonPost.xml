@@ -1,0 +1,11 @@
+<epaperRequest>
+	<deviceInfo name="Browser" id="test@comp">
+		<screenInfo width="1300" height="700" dpi="120" />
+		<osInfo name="Browser" version="1.0" />
+		<appInfo>
+			<newspaperName>Washington Post</newspaperName>
+			<version>1.0</version>
+		</appInfo>
+	</deviceInfo>
+	<getPages editionDefId="11" publicationDate="2017-06-06"/>
+</epaperRequest>
