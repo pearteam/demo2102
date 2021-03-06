@@ -227,6 +227,7 @@ Whole solution might be tested in browser:
 ```
 http://localhost:8080
 ```
+Clicking on headers you can change order of display.
 
 ![Frontend page](fig1.png)
 ---
