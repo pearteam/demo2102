@@ -61,10 +61,16 @@ $ docker exec -i mysql57dc mysql -uroot -pmypassword newspaper_data <  2021-03-0
 ```
 ---
 
+### Build java app:
+
+```
+$ mvn package
+```
+
 ### Run java app service:
 
 ```
-$ java -jar demo-app-1.0-SNAPSHOT.jar
+$ java -jar target/demo-app-1.0-SNAPSHOT.jar
 ```
 
 API calls:
@@ -254,6 +260,11 @@ It will start on localhost:3000
 $ cd frontend
 $ npm install
 $ yarn start
+```
+
+If problems with installing then run:
+```
+$ npm i --legacy-peer-deps
 ```
 
 ### Production

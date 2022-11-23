@@ -12,6 +12,5 @@ services:
    - "3306:3306"
   volumes:
    - mysql-demo:/var/lib/mysql
-  network_mode: "host"
 volumes:
   mysql-demo:
